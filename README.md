@@ -4,14 +4,46 @@ This excel based tool gamifies your life using logs of your activities. The idea
 
 You can assign +ive points for good habits/behavior & -ive for bad ones. 
 
+![alt text](https://github.com/arun-ks/GamifyLife/blob/master/help/Instruction03.jpg "Summary View")
+
 ## How does it work
 
 > "Your actions become your habits"
 
 Each activity is associated with some points (+ive for good things, -ive for bad ones). As you log activities, the excel will calculate your health-status. 
 
-## Initial Setup 
 
+## Initial Setup 
+1. Download the excel 
+2. Add activities
+  1. On the worksheet "LoggerMaster", add the activities you want to track in cells A2:A13
+  2. In cells B2:B13 insert the points you want to give/take for them. Give +ive values for **good** habits & -ive for **bad** ones
+  3. In cells L18 & L19 add the maximum point you can take & your health.
+
+![alt text](https://github.com/arun-ks/GamifyLife/blob/master/help/Instruction01.jpg "Setup Habits")
+
+## Logging Data
+On the worksheet "LoggerMaster", use the Button "Log an Activity", press submit when done.
+![alt text](https://github.com/arun-ks/GamifyLife/blob/master/help/Instruction02.jpg "Logging an Activity")
+
+Notice that some of the activities allow you to add **numeric** metrics (for example, the count of your situps).
+
+You can also manually add a entry in the "LoggerData" worksheet (take care of formula used there). In this case, you need to press the "Recalculate" button on "LoggerMaster" to update the counters 
+
+## Summary Tracking view
+On "LoggerMaster" you can see the Score for each activity, the Iterations(number of times you did it), the last Date, the max-minimum values if applicable (this works only for numeric metrics) & the number of days since you last did the activity.
+
+![alt text](https://github.com/arun-ks/GamifyLife/blob/master/help/Instruction03.jpg "Summary View")
+
+On lower right had side, you can see the **health**
+
+## Pivot table for some habits
+You can customize pivot table on "LoggerGraph" worksheet to track progress of Activities which include some metric.
+![alt text](https://github.com/arun-ks/GamifyLife/blob/master/help/Instruction04.jpg "Pivot Graph")
+
+## Known issues 
+For activities which do not have any metrics, the excel uses 99 as a filler value - this is done to make the pivot graph look nice.
+So, if the metric for your task has the value "99", it will cause issues.
 
 ## Tools for editing this README
 [Editor](http://dillinger.io/), [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
