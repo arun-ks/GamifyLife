@@ -14,9 +14,9 @@ Each activity is associated with some points (+ive for good things, -ive for bad
 
 
 ## Initial Setup 
-1. Download the excel 
-2. Add activities
-  1. On the worksheet "LoggerMaster", add the activities you want to track in cells A2:A13
+1. Download **GamifyLife.xlsm** excel 
+2. Add activities in the worksheet "LoggerMaster" of the excel
+  1. Add the activities you want to track in cells A2:A13
   2. In cells B2:B13 insert the points you want to give/take for them. Give +ive values for **good** habits & -ive for **bad** ones
   3. In cells L18 & L19 add the maximum point you can take & your health.
 
@@ -45,5 +45,8 @@ You can customize pivot table on "LoggerGraph" worksheet to track progress of Ac
 For activities which do not have any metrics, the excel uses 99 as a filler value - this is done to make the pivot graph look nice.
 So, if the metric for your task has the value "99", it will cause issues.
 
-## Tools for editing this README
-[Editor](http://dillinger.io/), [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## Files in the package
+1. "GamifyLife.xlsm" : The file you can use to track your life. This is the only stuff you need.
+2. "GamifyLifeSample.xlsm" : A used example filled with dummy data for you to check how this works.
+3. "help" folder : Images used in this readme.
+
