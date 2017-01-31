@@ -47,6 +47,6 @@ So, if the metric for your task has the value "99", it will cause issues.
 
 ## Files in the package
 1. "GamifyLife.xlsm" : The file you can use to track your life. This is the only stuff you need.
-2. "GamifyLifeSample.xlsm" : A used example filled with dummy data for you to check how this works.
+2. "GamifyLifeSample.xlsm" : A used example filled with mostly **dummy data** for you to check how this works.
 3. "help" folder : Images used in this readme.
 
